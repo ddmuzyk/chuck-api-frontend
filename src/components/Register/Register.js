@@ -29,7 +29,7 @@ class Register extends React.Component {
         if (!registerEmail || !registerName || !registerPassword) {
             console.log('bad request')
         } else {
-            fetch('http://localhost:3000/register', {
+            fetch('https://chuckveryfunny-api.onrender.com/register', {
                 method: 'post',
                 headers: {'Content-Type': 'application/json'},
                 body: JSON.stringify({

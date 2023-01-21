@@ -50,7 +50,7 @@ class App extends Component {
     }
 
     onButtonClick = () => {
-        fetch('http://localhost:3000/generate', {
+        fetch('https://chuckveryfunny-api.onrender.com/generate', {
             method: 'put',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({
