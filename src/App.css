@@ -1,0 +1,15 @@
+body {
+    background-image: linear-gradient(to right,rgba(151, 144, 79, 0.808), rgba(197, 218, 179, 0.719));
+    min-width: 440px;
+}
+
+/* .components {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+} */
+
+
+

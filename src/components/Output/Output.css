@@ -1,0 +1,68 @@
+.output {
+    display: flex;
+    position: relative;
+    top: 10em;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0em 2em;
+    overflow-y: visible;
+}
+
+.joke {
+    display: flex;
+    font-size: 24px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap:  wrap;
+    position: relative;
+    text-align: center;
+    height:6em;
+    width: 60%;
+    margin: 0em 1.5em;
+    padding: 1em 1em 4em 1em;
+    background-color: rgba(82, 82, 63, 0.479);
+    box-shadow: 2px 2px 20px -3px;
+    border-radius: 30px;
+}
+
+.signout {
+    position: relative;
+    right: 1em;
+}
+
+button {
+    position: relative;
+    top: 3em;
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(66, 116, 58, 0.397);
+    color: rgba(0, 0, 0, 0.952);
+    border: rgba(102, 51, 153, 0);
+    box-shadow: 2px 2px 13px -3px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+button:hover {
+    background-color: rgba(220, 245, 192, 0.178);
+}
+
+button:active {
+    transform: translateY(4px);
+  }
+
+@media (max-width: 700px) {
+    .joke {
+        font-size: 18px;
+        padding-bottom: 5em;
+    }
+}
+
+.userinfo {
+    text-align: center;
+    position: relative;
+    top: 2em;
+    font-size: 26px;
+}

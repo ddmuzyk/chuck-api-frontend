@@ -1,0 +1,88 @@
+*:before *:after {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.body {
+  /* display: flex; */
+  /* justify-content: center;
+  align-items: center; */
+  margin: 0px 20px;
+
+}
+
+ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  list-style-type: none;
+  gap: 2em;
+}
+
+li {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.formParent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 2em 2em 3.5em 2em;
+  /* border: 2px solid rgba(211, 29, 44, 0.5); */
+  border-radius: 30px;
+  font-size: 2em;
+  background-color: rgba(82, 82, 63, 0.479);
+  box-shadow: 2px 2px 20px -3px;
+}
+
+h3 {
+  text-align: center;
+  position: relative;
+  bottom: 1em;
+}
+
+.username {
+  position: relative;
+  bottom: 1.2em;
+}
+
+#username {
+  position: relative;
+  bottom: 15px;
+}
+
+.password {
+  position: relative;
+}
+
+#password {
+  position: relative;
+  top: 20px;
+}
+
+input {
+  font-size: 0.8em;
+  font-family: monospace;
+  background-color: rgba(187, 164, 131, 0.555);
+  border-color: rgba(85, 84, 24, 0);
+}
+
+.login {
+  cursor: pointer;
+  position: relative;
+  top: 2.5em;
+  font-size: 1em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgba(161, 216, 184, 0.61);
+}
+
+::placeholder {
+  color: rgba(0, 0, 0, 0.616);
+}
